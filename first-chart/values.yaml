@@ -1,6 +1,14 @@
 # Default values for first-chart.
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
+customblock:
+  author:
+   name:
+     - "Edward"
+     - "Peter"
+     - "Justice"
+     - "Janet"
+
 
 replicaCount: 1
 
