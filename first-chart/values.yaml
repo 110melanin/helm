@@ -8,6 +8,8 @@ customblock:
      - "Elvis"
      - "Justice"
      - "Mary"
+     - "Camela"
+     - "Labile"
 
 
 replicaCount: 1
