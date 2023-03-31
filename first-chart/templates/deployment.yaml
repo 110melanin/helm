@@ -3,9 +3,9 @@ kind: Deployment
 
 {{- $myVar := true }}
 {{- if $myVar }}
-{{"Hi, The variable is true | nindent 4"}}
+{{"Hi, The variable is true" | nindent 4}}
 {{- else}}
-{{"Hi, The variable is false | nindent 4"}}
+{{"Hi, The variable is false" | nindent 4}}
 {{- end}}
 
 metadata:
