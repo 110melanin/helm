@@ -1,6 +1,6 @@
 apiVersion: apps/v1
 kind: Deployment
-{{ - $myvar := true}}
+{{- $myvar := true}}
 {{- if $myvar}}
 {{"Hi, The variable is true | nindent 4"}}
 {{- else}}
