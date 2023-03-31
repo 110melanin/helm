@@ -1,5 +1,12 @@
 apiVersion: apps/v1
 kind: Deployment
+{{ - $myvar := true}}
+{{- if $myvar}}
+{{"Hi, The variable is true | nindent 4"}}
+{{- else}}
+{{"Hi, The variable is false | nindent 4"}}
+{{- end}}
+
 {{- with .Values.customblock.author.name}}
 author:
 {{- toYaml . | nindent 4}}
