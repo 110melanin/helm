@@ -85,6 +85,12 @@ autoscaling:
   targetCPUUtilizationPercentage: 80
   # targetMemoryUtilizationPercentage: 80
 
+mysql:
+ enabled: false
+
+rabbitmq:
+ enabled: True
+
 nodeSelector: {}
 
 tolerations: []
