@@ -86,10 +86,10 @@ autoscaling:
   # targetMemoryUtilizationPercentage: 80
 
 mysql:
- enabled: false
+ enabled: true
 
 rabbitmq:
- enabled: True
+ enabled: false
 
 nodeSelector: {}
 
